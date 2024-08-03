@@ -31,12 +31,21 @@ add_executable(ac2bc ac2bc.c)
 add_executable(ac2bcw_wiw ac2bcw.c)
 add_executable(ac2bcw_wi ac2bcw.c)
 add_executable(ac2bcw_w ac2bcw.c)
+
+add_executable(acw2bcw_wiw ac2bcw.c)
+add_executable(acw2bcw_wi ac2bcw.c)
+add_executable(acw2bcw_w ac2bcw.c)
+
 target_link_libraries(ac2b2c b c)
 target_link_libraries(a2b2c b c)
 target_link_libraries(ac2bc bc )
 target_link_libraries(ac2bcw_wiw bcw_wiw)
 target_link_libraries(ac2bcw_wi bcw_wi)
 target_link_libraries(ac2bcw_w bcw_w)
+target_link_libraries(acw2bcw_wiw bcw_wiw)
+target_link_libraries(acw2bcw_wi bcw_wi)
+target_link_libraries(acw2bcw_w bcw_w)
+
 
 add_executable(str str.cpp)
 add_library(res SHARED res.cpp)

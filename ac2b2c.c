@@ -14,8 +14,11 @@ char* ret_c(const char *parent) {
 }
 
 
-int main()
+int main(int argc, char**argv)
 {
-    printf("ac2b2c ret_c() returns %s\n", ret_c("a2b2c "));
-    printf("ac2b2c ret_b() returns %s\n", ret_b("a2b2c "));
+    char name[256];
+    strcpy(name,argv[0]);
+    strcat(name," ");
+    printf("ac2b2c ret_c() returns %s\n", ret_c(name));
+    printf("ac2b2c ret_b() returns %s\n", ret_b(name));
 }

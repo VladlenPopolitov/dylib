@@ -4,7 +4,7 @@ extern char* ret_c(const char *parent) WEAK_IMPORT;
 extern char* ret_b(const char *parent);
 
 static char* k_lib_name_c = "ret_c_same_weak_wiw ";
- char* ret_c(const char *parent) WEAK_IMPORT {
+WEAK_IMPORT char* ret_c(const char *parent)  {
     char _dependencies[50] = "";
     strcpy(_dependencies, k_lib_name_c);
     strncat(_dependencies, parent,

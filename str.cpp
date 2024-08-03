@@ -1,7 +1,7 @@
 #include <cstdio>
 #include <cstdlib>
 #include <string>
-
+#include <new>
 
 // no inline, required by [replacement.functions]/3
 void* operator new(std::size_t sz)
