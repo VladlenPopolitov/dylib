@@ -1,6 +1,10 @@
 #include <stdio.h>
 #include <string.h>
+#ifndef _WIN32
 #define WEAK_IMPORT __attribute__((weak_import, weak))
+#else
+#define WEAK_IMPORT
+#endif
 
 //extern char* ret_c(const char *parent) WEAK_IMPORT;
 extern  char* ret_b(const char *parent) ;

@@ -1,2 +1,2 @@
-ac2bcw ret_c() returns ret_c_new ./ac2bcw_wiw 
-ac2bcw ret_b() returns ret_c_new ret_b ./ac2bcw_wiw 
+ac2bcw ret_c() returns ret_c_new .\ac2bcw_wiw 
+ac2bcw ret_b() returns ret_c_new ret_b .\ac2bcw_wiw 

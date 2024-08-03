@@ -1,6 +1,11 @@
 #include <string.h>
+#ifndef _WIN32
 #define WEAK_IMPORT __attribute__((weak_import, weak))
-extern char* ret_c(const char *parent) WEAK_IMPORT;
+#else
+#define WEAK_IMPORT
+#endif
+
+extern WEAK_IMPORT char* ret_c(const char *parent) ;
 extern char* ret_b(const char *parent);
 
 static char* k_lib_name_c = "ret_c_same_weak_wiw ";

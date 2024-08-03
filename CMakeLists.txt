@@ -7,16 +7,18 @@
 cmake_minimum_required(VERSION 3.13)
 project(Dynlibs)
 
-add_library(Art SHARED Art.c)
-add_library(Bus SHARED Bus.c)
-add_library(Bus1 SHARED Bus1.c)
-add_library(Bus1a SHARED Bus1a.c)
-add_library(Bus2 SHARED Bus2.c)
+set(CMAKE_WINDOWS_EXPORT_ALL_SYMBOLS ON)
 
-add_executable(mac_app mac_app.c)
-target_link_libraries(mac_app Art Bus)
-target_link_libraries(Bus  Bus1 Bus2)
-target_link_libraries(Bus1  Bus1a )
+#add_library(Art SHARED Art.c)
+#add_library(Bus SHARED Bus.c)
+#add_library(Bus1 SHARED Bus1.c)
+#add_library(Bus1a SHARED Bus1a.c)
+#add_library(Bus2 SHARED Bus2.c)
+
+#add_executable(mac_app mac_app.c)
+#target_link_libraries(mac_app Art Bus)
+#target_link_libraries(Bus  Bus1 Bus2)
+#target_link_libraries(Bus1  Bus1a )
 
 add_library(b SHARED b.c)
 add_library(bc SHARED bc.c)

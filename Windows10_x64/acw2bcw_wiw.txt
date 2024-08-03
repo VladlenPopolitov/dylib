@@ -1,0 +1,2 @@
+ac2b2c ret_c() returns ret_c_new_wiw .\acw2bcw_wiw 
+ac2b2c ret_b() returns ret_c_same_weak_wiw ret_b .\acw2bcw_wiw 
