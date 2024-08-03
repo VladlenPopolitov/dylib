@@ -2,7 +2,7 @@
 #include <string.h>
 #define WEAK_IMPORT __attribute__((weak_import, weak))
 
-extern char* ret_c(const char *parent) WEAK_IMPORT;
+//extern char* ret_c(const char *parent) WEAK_IMPORT;
 extern  char* ret_b(const char *parent) ;
 
 static char* k_lib_name = "ret_c_new_wiw ";

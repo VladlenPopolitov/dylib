@@ -8,9 +8,9 @@ mkdir ../`uname -s`_`uname -m`
 ./ac2bcw_wiw >../`uname -s`_`uname -m`/ac2bcw_wiw.txt
 ./ac2bcw_wi >../`uname -s`_`uname -m`/ac2bcw_wi.txt
 ./ac2bcw_w >../`uname -s`_`uname -m`/ac2bcw_w.txt
-#./acw2bcw_wiw >../`uname -s`_`uname -m`/acw2bcw_wiw.txt
-#./acw2bcw_wi >../`uname -s`_`uname -m`/acw2bcw_wi.txt
-#./acw2bcw_w >../`uname -s`_`uname -m`/acw2bcw_w.txt
+./acw2bcw_wiw >../`uname -s`_`uname -m`/acw2bcw_wiw.txt
+./acw2bcw_wi >../`uname -s`_`uname -m`/acw2bcw_wi.txt
+./acw2bcw_w >../`uname -s`_`uname -m`/acw2bcw_w.txt
 
 else
 echo Run command in build directore as ../runandsave
