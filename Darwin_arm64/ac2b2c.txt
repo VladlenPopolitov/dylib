@@ -1,2 +1,2 @@
-ac2b2c ret_c() returns ret_c_new ./ac2b2c 
-ac2b2c ret_b() returns ret_c ret_b ./ac2b2c 
+ac2b2c ret_c() returns ret_c_new .\ac2b2c 
+ac2b2c ret_b() returns ret_c ret_b .\ac2b2c 
