@@ -1,0 +1,2 @@
+ac2bc ret_c() returns ret_c_new ./ac2bc 
+ac2bc ret_b() returns ret_c_same ret_b ./ac2bc 
