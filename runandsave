@@ -1,0 +1,13 @@
+#!/bin/sh
+if [ -f a2b2c ]
+then
+mkdir ../`uname -s`_`uname -m`
+./a2b2c >../`uname -s`_`uname -m`/a2b2c.txt
+./ac2b2c >../`uname -s`_`uname -m`/ac2b2c.txt
+./ac2bc >../`uname -s`_`uname -m`/ac2bc.txt
+./ac2bcw_wiw >../`uname -s`_`uname -m`/ac2bcw_wiw.txt
+./ac2bcw_wi >../`uname -s`_`uname -m`/ac2bcw_wi.txt
+./ac2bcw_w >../`uname -s`_`uname -m`/ac2bcw_w.txt
+else
+echo Run command in build directore as ../runandsave
+fi

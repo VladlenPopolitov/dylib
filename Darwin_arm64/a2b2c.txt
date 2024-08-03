@@ -1,0 +1,2 @@
+a2b2c ret_c() returns ret_c a2b2c 
+a2b2c ret_b() returns ret_c ret_b a2b2c 
